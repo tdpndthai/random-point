@@ -7,7 +7,7 @@
     <div>
       Copyright (c) {{ date }}
       <b-link href="https://www.facebook.com/thainguyen.mta/" target="blank"
-        >Nguyễn Danh Thái</b-link
+        >ThaiND</b-link
       >
     </div>
   </div>

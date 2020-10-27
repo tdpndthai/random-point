@@ -10,7 +10,7 @@
         >Close Me</b-button
       >
     </b-modal> -->
-    <b-input-group prepend="Nhập tên của bạn" class="mt-3">
+    <b-input-group prepend="Nhập vào tên của bạn" class="mt-3">
       <b-form-input v-model="name"></b-form-input>
       <b-button @click="random" variant="info"
         >Đoán điểm kiểm tra của bạn =))</b-button
@@ -22,7 +22,7 @@
       <div class="card-body text-center">
         <img src="https://img.icons8.com/bubbles/200/000000/trophy.png" />
         <h4 style="font-weight: bold">CONGRATULATIONS! {{ name }}</h4>
-        <p>Ngày mai bạn sẽ đạt được {{ point }} điểm =))))</p>
+        <p>Ngày thi bạn sẽ đạt được {{ point }} điểm =))))</p>
       </div>
     </b-modal>
   </div>
